@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iOSadchyi</title>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>/</link>
+    <description>A website with blog posts and pages</description>
+    <pubDate>Sat, 19 Dec 2015 12:07:36 +0200</pubDate>
+    
+      <item>
+        <title>Перший тестовий пост</title>
+        <link>/2015/12/19/a-small-step-in-the-great-future-uk.html</link>
+        <guid isPermaLink="true">/2015/12/19/a-small-step-in-the-great-future-uk.html</guid>
+        <description>&lt;h3 id=&quot;section&quot;&gt;Перевірка української мови&lt;/h3&gt;
+
+&lt;p&gt;Тест, тест та знову тест&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 19 Dec 2015 00:00:00 +0200</pubDate>
+      </item>
+    
+      <item>
+        <title>First test post</title>
+        <link>/2015/12/19/a-small-step-in-the-great-future-en.html</link>
+        <guid isPermaLink="true">/2015/12/19/a-small-step-in-the-great-future-en.html</guid>
+        <description>&lt;h3 id=&quot;test-english&quot;&gt;TEST ENGLISH&lt;/h3&gt;
+
+&lt;p&gt;Test test test and test&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 19 Dec 2015 00:00:00 +0200</pubDate>
+      </item>
+    
+  </channel>
+</rss>

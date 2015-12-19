@@ -1,21 +1,21 @@
 # SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+#baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://example.com" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
-  gravatar: # Email MD5 hash
+  title: iOSadchyi
+ # avatar: avatar.png
+ # gravatar: # Email MD5 hash
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
   header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>“One of my most productive days was throwing away 1000 lines of code.” - Ken Thompson </p>
 
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
-  header_text_feature_image:
+     
+  header_text_feature_image: 
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
@@ -25,9 +25,9 @@ theme:
   behance:
   bitbucket:
   dribbble:
-  facebook:
+  facebook: 
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "illia-osadchyi"
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -46,6 +46,11 @@ theme:
   disqus_shortname:
   katex: true # Enable if using math markup
 
+  # test Polyglot 
+  languages: ["en", "uk"]
+  default_lang: "en"
+  exclude_from_localization: ["javascript", "images", "css"]
+
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
@@ -59,9 +64,10 @@ theme:
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
   
   # Post navigation
-  post_navigation: false
+  post_navigation: true #false
 
 # PAGINATION
+gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "blog/page:num"
 
